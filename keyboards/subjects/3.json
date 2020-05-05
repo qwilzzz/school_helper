@@ -1,0 +1,87 @@
+{
+  "one_time":false,
+  "buttons":
+  [
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Литература", 
+                        "payload":"{\"command\":[\"gen_test\",\"lit\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"География", 
+                        "payload":"{\"command\":[\"gen_test\",\"geo\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Немецкий язык",
+                        "payload":"{\"command\":[\"gen_test\",\"de\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Французский язык", 
+                        "payload":"{\"command\":[\"gen_test\",\"fr\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Испанский язык",
+                        "payload":"{\"command\":[\"gen_test\",\"sp\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"╳",
+                        "payload":"{\"command\":[\"get_keyboard\",\"main.json\",\"Выберите действие\"]}"
+                     },
+            "color":"negative"
+        },
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"←",
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/2.json\",\"Выберите предмет\"]}"
+                     },
+            "color":"primary"
+        },
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"→",
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/1.json\",\"Выберите предмет\"]}"
+                     },
+            "color":"primary"
+        }
+    ]
+
+]
+}

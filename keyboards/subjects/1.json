@@ -1,0 +1,87 @@
+{
+  "one_time":false,
+  "buttons":
+  [
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Русский язык", 
+                        "payload":"{\"command\":[\"gen_test\",\"rus\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Математика (база)",
+                        "payload":"{\"command\":[\"gen_test\",\"mathb\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Математика (профиль)",
+                        "payload":"{\"command\":[\"gen_test\",\"math\",\"Выберите предмет\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Обществознание", 
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/1.json\",\"Генерация тестов по обществознанию на данный момент недоступна\"]}"
+                     },
+            "color":"negative"
+        }
+    ],
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Физика",
+                        "payload":"{\"command\":[\"gen_test\",\"phys\"]}"
+                     },
+            "color":"secondary"
+        }
+    ],
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"╳",
+                        "payload":"{\"command\":[\"get_keyboard\",\"main.json\",\"Выберите действие\"]}"
+                     },
+            "color":"negative"
+        },
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"←",
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/3.json\",\"Выберите предмет\"]}"
+                     },
+            "color":"primary"
+        },
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"→",
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/2.json\",\"Выберите предмет\"]}"
+                     },
+            "color":"primary"
+        }
+    ]
+
+]
+}

@@ -1,0 +1,39 @@
+{
+  "one_time":false,
+  "buttons":
+  [
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Сгенерировать вариант", 
+                        "payload":"{\"command\":[\"get_keyboard\",\"subjects/1.json\",\"Выберите предмет\"]}"
+                     },
+            "color":"primary"
+        }
+    ],
+    [
+        {
+            "action":{
+                        "type":"open_app", 
+                        "label":"Подписаться на рассылку",
+                        "app_id":5748831,
+                        "owner_id":-188420849
+                     }
+        }
+    ],
+
+    [
+        {
+            "action":{
+                        "type":"text", 
+                        "label":"Помощь", 
+                        "payload":"{\"command\":\"help\"}"
+                     },
+            "color":"secondary"
+        }
+    ]
+
+  ]
+}
